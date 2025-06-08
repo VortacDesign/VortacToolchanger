@@ -1,0 +1,13 @@
+# Autosave- und temporäre Dateien
+*~                                         # typische Backup-Dateien
+*.bak                                      # .bak-Dateien (z. B. Logic.sch-bak)
+*.swp                                      # vim-swap
+*.swo
+*.swn
+*.lck                                      # Lock-Dateien (z. B. autosave .lck)
+~*.kicad_pcb                               # KiCad autosave PCB-Dateien
+~*.kicad_sch                               # KiCad autosave SCH-Dateien
+_autosave-*                                # alle Autosave-Dateien (wie _autosave-VORTAC_REV1.kicad_pcb.lck)
+*autosave*                                 # zusätzliche Sicherheit: alles mit "autosave" im Namen
+*backup*
+*backup*/**

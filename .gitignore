@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup / temp files
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Git submodules / repo-related
+.gitmodules
+*.orig
+
+# VS Code / JetBrains / Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# 3D Design (optional: remove if you want to include them)
+*.f3d
+*.123
+*.FCStd1
+*.backup1
+
+# Slicer cache or backup files
+*.gcode
+*.gco
+*.3mf
+*.factory
+*.stl.tmp
+
+# CAD software autosaves
+~$*
+*.bak*
+*.autosave
+
+# System folders (e.g., macOS, Windows)
+._*
+.Spotlight-V100
+.Trashes
+
+# Python venv (optional)
+venv/
+.env/
+.envrc
