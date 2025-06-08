@@ -1,0 +1,3 @@
+[submodule "VortacFirmware"]
+	path = VortacFirmware
+	url = https://github.com/VortacDesign/VortacFirmware.git
