@@ -1,0 +1,96 @@
+(footprint "Dock_Solderpoint_02x01_GND"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a30ff603-2c02-4099-b67e-3b476fad5a52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Dock_Solderpoint_02x01_GND"
+		(at -0.1 -4.93 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8b03c838-6b4c-4401-ae84-f19fbd56e83b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07da3daf-3804-49ea-9260-1bc9bbf99d10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9ea7bde-13ce-4ee1-9060-20090b02cf15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.07 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7880a343-2fc1-44ba-b763-c36921fa9183")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.9 0)
+		(size 5 3)
+		(drill 2.2
+			(offset 1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ceae4e9f-9dc9-4798-8929-0dd9009e0b8b")
+	)
+	(pad "1" thru_hole roundrect
+		(at 1.9 0 180)
+		(size 5 3)
+		(drill 2.2
+			(offset 1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "6559b2b6-eca4-48e2-bd74-8221a4b32764")
+	)
+	(embedded_fonts no)
+)
