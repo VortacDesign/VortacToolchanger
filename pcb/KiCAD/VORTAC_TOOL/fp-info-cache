@@ -1,4 +1,4 @@
-25294644896635581
+25299922921868003
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101500,6 +101500,20 @@ Toolplate_Solderpoint_01x02_Power
 2
 2
 Vortac
+Toolplate_Solderpoint_01x02_Power_Small
+
+
+0
+2
+2
+Vortac
+Toolplate_Solderpoint_01x03_Data
+
+
+0
+3
+3
+Vortac
 Toolplate_Solderpoint_01x05_Data
 
 
@@ -101576,6 +101590,13 @@ WSD4066DN_ThermalPad_Hex
 0
 28
 6
+Vortac
+mill-max-0881-1-15-20-82-14-11-0_LandingPads_ContactPad_1x5
+
+
+0
+5
+5
 Vortac
 mill-max-0881-1-15-20-82-14-11-0_LandingPads_ContactPad_PTH_2x1.5x1
 
