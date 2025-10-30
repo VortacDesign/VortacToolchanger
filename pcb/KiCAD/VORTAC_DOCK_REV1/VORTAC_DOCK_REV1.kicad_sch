@@ -5,196 +5,6 @@
 	(uuid "2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -469,206 +279,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1922,261 +1532,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED:NeoPixel_THT"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "NeoPixel_THT"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.adafruit.com/product/1938"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*D5.0mm* LED*D8.0mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NeoPixel_THT_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "NeoPixel_THT_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NeoPixel_THT_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3560,18 +2915,6 @@
 		)
 		(uuid "9ad13999-af38-48a3-9fa4-43231bd96fac")
 	)
-	(text "ADD TERMINATION RESISTOR"
-		(exclude_from_sim no)
-		(at 10.668 -5.334 0)
-		(effects
-			(font
-				(size 3.6068 3.6068)
-				(color 255 0 19 1)
-			)
-			(justify left top)
-		)
-		(uuid "e2621a2a-ee3d-4beb-893c-bf8848218dec")
-	)
 	(junction
 		(at 110.49 168.91)
 		(diameter 0)
@@ -3698,16 +3041,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 154.94) (xy 331.47 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07b27fc4-304e-4a38-9d10-392aa1474e4f")
-	)
-	(wire
-		(pts
 			(xy 116.84 45.72) (xy 116.84 48.26)
 		)
 		(stroke
@@ -3718,26 +3051,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 95.25) (xy 332.74 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cdf587f-5326-45f6-ba11-c4bfabda8a0d")
-	)
-	(wire
-		(pts
-			(xy 328.93 144.78) (xy 332.74 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d469985-7145-4c83-ad4e-90a00b5a4ba8")
-	)
-	(wire
-		(pts
 			(xy 73.66 48.26) (xy 73.66 52.07)
 		)
 		(stroke
@@ -3745,26 +3058,6 @@
 			(type default)
 		)
 		(uuid "128dfe5d-4d62-4884-be8d-ceea74e88bf6")
-	)
-	(wire
-		(pts
-			(xy 328.93 137.16) (xy 332.74 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "149cb4fd-2dd4-4461-b5cb-152160092397")
-	)
-	(wire
-		(pts
-			(xy 328.93 82.55) (xy 332.74 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16269f42-b685-4841-85d7-8f72cac2ce6a")
 	)
 	(wire
 		(pts
@@ -3865,16 +3158,6 @@
 			(type dash)
 		)
 		(uuid "23ef6a24-005d-4d7e-8645-f849ffdd861b")
-	)
-	(wire
-		(pts
-			(xy 328.93 87.63) (xy 332.74 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25df0623-10a6-4232-808b-051e9983ca19")
 	)
 	(wire
 		(pts
@@ -3985,16 +3268,6 @@
 			(type default)
 		)
 		(uuid "3a8bb57f-59df-4f7d-99f3-cbb267fed811")
-	)
-	(wire
-		(pts
-			(xy 328.93 85.09) (xy 332.74 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae88325-8014-497d-b26a-cac123f435ac")
 	)
 	(wire
 		(pts
@@ -4168,16 +3441,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 115.57) (xy 332.74 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f47828a-45a6-45e5-b0e6-4106b4121e80")
-	)
-	(wire
-		(pts
 			(xy 87.63 168.91) (xy 97.79 168.91)
 		)
 		(stroke
@@ -4298,16 +3561,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 142.24) (xy 332.74 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca6fb3b-f72f-4e37-bd5c-cd6adf30e24e")
-	)
-	(wire
-		(pts
 			(xy 62.23 43.18) (xy 62.23 38.1)
 		)
 		(stroke
@@ -4355,16 +3608,6 @@
 			(type default)
 		)
 		(uuid "903665f3-b112-496c-80f2-c0dc14817e8a")
-	)
-	(wire
-		(pts
-			(xy 328.93 92.71) (xy 332.74 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "968d02b5-ae16-44f3-958a-df25aca9bcee")
 	)
 	(wire
 		(pts
@@ -4458,16 +3701,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 139.7) (xy 332.74 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7605a8e-8efc-4d55-9ccf-04d282a4ddde")
-	)
-	(wire
-		(pts
 			(xy 189.23 142.24) (xy 193.04 142.24)
 		)
 		(stroke
@@ -4545,26 +3778,6 @@
 			(type default)
 		)
 		(uuid "b6d4168c-a4d4-4f8b-abf6-5fd5956af04c")
-	)
-	(wire
-		(pts
-			(xy 328.93 118.11) (xy 332.74 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9550c96-8586-4150-a143-0614375a3365")
-	)
-	(wire
-		(pts
-			(xy 328.93 113.03) (xy 332.74 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb955787-4fb2-47cb-95e3-9a4e71ac1baf")
 	)
 	(wire
 		(pts
@@ -4658,16 +3871,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 120.65) (xy 332.74 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de4d4d89-20cc-4b58-97c4-69ad0ffaade2")
-	)
-	(wire
-		(pts
 			(xy 248.92 133.35) (xy 252.73 133.35)
 		)
 		(stroke
@@ -4708,16 +3911,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 97.79) (xy 332.74 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e40ff958-7396-4ef7-b33d-62d68679312a")
-	)
-	(wire
-		(pts
 			(xy 246.38 81.28) (xy 248.92 81.28)
 		)
 		(stroke
@@ -4755,16 +3948,6 @@
 			(type default)
 		)
 		(uuid "e9f0880a-b073-4b1d-adc3-3b66f969a94f")
-	)
-	(wire
-		(pts
-			(xy 327.66 157.48) (xy 331.47 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba8e7c7-bac7-4aff-ac77-54b732ab20a4")
 	)
 	(wire
 		(pts
@@ -4900,29 +4083,9 @@
 			)
 		)
 	)
-	(global_label "WS2811_DO"
-		(shape input)
-		(at 328.93 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12b99805-4967-40f1-8f66-f03010d962b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 189.23 149.86 180)
+		(at 189.23 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4932,7 +4095,7 @@
 		)
 		(uuid "24bfff09-8daf-47a2-83e4-3e9e225f4e03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.56 149.86 0)
+			(at 180.56 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,90 +4125,6 @@
 			)
 		)
 	)
-	(global_label "WS2811_DO"
-		(shape input)
-		(at 328.93 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2999dffe-6c66-45b9-9343-49176b3d2d3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.93 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 328.93 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a9239c0-b2ed-41df-96ef-93a9679ccc5e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.9576 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 328.93 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ee6cf41-6347-44c4-b65e-d71dc00f7e54")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.9576 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WS2811_DIN"
-		(shape input)
-		(at 328.93 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4cabf87e-313d-4dcf-976a-d2afad366e64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_FLT_DRAIN"
 		(shape input)
 		(at 90.17 156.21 0)
@@ -5062,28 +4141,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 328.93 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a4c2e25-896d-4e26-b164-067db0a5fc80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.26 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5110,72 +4167,6 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 328.93 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "731160d0-1c2c-47f8-82f5-5898570555e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.9576 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 328.93 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76227df0-4121-492f-82f9-92ba107b167d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 328.93 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "795e1a02-70e2-4205-a477-955b9d96cd9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.9576 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "WS2811_DO"
 		(shape input)
 		(at 58.42 88.9 180)
@@ -5188,26 +4179,6 @@
 		(uuid "822761ae-2aa2-41a1-a498-4b35f65f999d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.42 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WS2811_DIN"
-		(shape input)
-		(at 328.93 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "851243de-d869-4612-bdb3-84e4dd7bcbe4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,28 +4211,6 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 328.93 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e5e864d-a47d-4b6c-91ce-acf3ab592e8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
-		(shape input)
 		(at 248.92 140.97 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5278,26 +4227,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WS2811_DO"
-		(shape input)
-		(at 328.93 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5e2b29d-6aa9-4719-9d7f-8568fbf4dbe7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.93 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -5342,29 +4271,9 @@
 			)
 		)
 	)
-	(global_label "WS2811_DIN"
-		(shape input)
-		(at 328.93 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bfead112-4d35-4bf0-b6b2-c5709068a5cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 189.23 147.32 180)
+		(at 189.23 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5374,7 +4283,7 @@
 		)
 		(uuid "c9ef4ce2-f588-486a-9a96-85c8cf9a622b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.2576 147.32 0)
+			(at 180.2576 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +4295,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 189.23 139.7 180)
+		(at 189.23 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5396,7 +4305,7 @@
 		)
 		(uuid "c9f54841-ffe5-4d71-8e43-386376652b86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.56 139.7 0)
+			(at 180.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +4361,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 189.23 137.16 180)
+		(at 189.23 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5462,29 +4371,7 @@
 		)
 		(uuid "f0e95893-16bb-4267-9001-b8611cf097f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.2576 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 328.93 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f20971ed-43d4-47ad-bdb1-a76ed9cfbe21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.26 142.24 0)
+			(at 180.2576 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +4403,7 @@
 	)
 	(global_label "TOOL_ID"
 		(shape input)
-		(at 248.92 135.89 180)
+		(at 248.92 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5526,7 +4413,7 @@
 		)
 		(uuid "fb872048-6803-4822-9b75-aa7705affa50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.4357 135.89 0)
+			(at 238.4357 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +4452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006191cdb5")
-		(property "Reference" "C33"
+		(property "Reference" "C6"
 			(at 109.22 171.45 90)
 			(effects
 				(font
@@ -5628,7 +4515,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "C33")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5643,7 +4530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062708d96")
-		(property "Reference" "D6"
+		(property "Reference" "D1"
 			(at 196.088 35.306 0)
 			(effects
 				(font
@@ -5704,7 +4591,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "D6")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5719,7 +4606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006270d474")
-		(property "Reference" "R38"
+		(property "Reference" "R1"
 			(at 186.182 35.052 90)
 			(effects
 				(font
@@ -5780,7 +4667,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "R38")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5814,7 +4701,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vortac:SolderJumper_Hex_Open_Pad"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 248.92 86.36 0)
 			(effects
 				(font
@@ -5857,81 +4744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 337.82 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "07811682-6c03-43fe-ab89-ac917d764cd6")
-		(property "Reference" "J5"
-			(at 340.36 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 340.36 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 337.82 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 337.82 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 337.82 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "daf28eff-54dc-4a7b-9d1a-e75d67d07eca")
-		)
-		(pin "3"
-			(uuid "0982889c-d8e1-4342-8d3d-6a672f220a3d")
-		)
-		(pin "4"
-			(uuid "439587a6-282d-4052-9a0f-3e4ee1e14226")
-		)
-		(pin "1"
-			(uuid "50f96d9a-2557-4677-8181-54dde2fdc6d7")
-		)
-		(instances
-			(project ""
-				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 135.89 38.1 270)
 		(unit 1)
@@ -5940,7 +4752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e4bda40-14a7-479f-9a6c-6af1cedad973")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR02"
 			(at 132.08 38.1 0)
 			(effects
 				(font
@@ -5991,80 +4803,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 337.82 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f86dbf1-7a99-42d9-ab29-a2834c624613")
-		(property "Reference" "J2"
-			(at 340.36 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 340.36 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
-			(at 337.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 337.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 337.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8d4ab874-d044-4ba6-83d9-42b2679c7408")
-		)
-		(pin "1"
-			(uuid "f2fe8990-c01c-48cc-988a-4a28fa557b52")
-		)
-		(pin "2"
-			(uuid "b3f5f695-d1e8-4f53-8fc9-91ccd9217869")
-		)
-		(instances
-			(project ""
-				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6079,7 +4818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19d5101d-bcf6-4684-81a9-7c9aa933c1d6")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR06"
 			(at 73.66 58.42 0)
 			(effects
 				(font
@@ -6129,7 +4868,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR036")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6145,7 +4884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b5f3de9-4d6d-49bd-9d10-81f04f6b416d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 53.34 158.75 0)
 			(effects
 				(font
@@ -6196,76 +4935,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 336.55 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "1da456e6-14a2-4736-9509-d4ba43988b70")
-		(property "Reference" "J3"
-			(at 339.09 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PowerSolderPoint"
-			(at 339.09 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Vortac:Dock_Solderpoint_02x02_Power"
-			(at 336.55 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 336.55 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f272cdb-6936-4399-a7ce-a9379c776b2e")
-		)
-		(pin "2"
-			(uuid "ba2eda5b-f3f9-4f67-94c9-d42a7914a1ba")
-		)
-		(instances
-			(project ""
-				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J3")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6281,7 +4951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20d93801-99fe-45d4-bd09-4a0b265e20fb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR018"
 			(at 116.84 143.51 0)
 			(effects
 				(font
@@ -6332,7 +5002,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR07")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6347,7 +5017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2537fd0d-b130-40fd-86f3-ccaac04c1b97")
-		(property "Reference" "J9"
+		(property "Reference" "J5"
 			(at 201.168 146.304 0)
 			(effects
 				(font
@@ -6404,7 +5074,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J9")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6419,7 +5089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2549e1ed-4061-47dc-ab6c-a8d48ccd5778")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR07"
 			(at 116.84 58.42 0)
 			(effects
 				(font
@@ -6469,7 +5139,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR038")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6484,7 +5154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f5d57f4-beef-452c-9821-4483c6c22afd")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR021"
 			(at 50.8 173.99 0)
 			(effects
 				(font
@@ -6535,7 +5205,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR042")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6609,73 +5279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 327.66 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "393302c7-6fa2-4189-b363-75bd5184d549")
-		(property "Reference" "#PWR04"
-			(at 321.31 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 323.85 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 327.66 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "579b5e43-eaba-4174-8117-05f92491151c")
-		)
-		(instances
-			(project "VORTAC_DOCK_REV1"
-				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 57.15 45.72 0)
 		(unit 1)
@@ -6684,7 +5287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b65886f-71f0-4c47-b9c2-b9786c9ca276")
-		(property "Reference" "C27"
+		(property "Reference" "C4"
 			(at 53.848 47.752 0)
 			(effects
 				(font
@@ -6745,7 +5348,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "C27")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6760,7 +5363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b77014b-6058-417a-a8fc-d31c88c3d37d")
-		(property "Reference" "R13"
+		(property "Reference" "R6"
 			(at 99.822 166.624 90)
 			(effects
 				(font
@@ -6823,83 +5426,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 328.93 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f29a10c-629d-45a0-a3ad-866fd80adf66")
-		(property "Reference" "D1"
-			(at 341.63 60.8898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 341.63 63.4298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 330.2 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 331.47 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 328.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "86b342aa-a27c-4292-817d-cb0e1a810cfb")
-		)
-		(pin "3"
-			(uuid "5a0116a9-e88d-4991-bbcf-218632ba4e19")
-		)
-		(pin "1"
-			(uuid "add2ff41-1321-4451-9be6-32ec295a6a63")
-		)
-		(pin "2"
-			(uuid "3163ed35-f2f4-4df0-9006-de0e0192d3bf")
-		)
-		(instances
-			(project ""
-				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "D1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6914,7 +5441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50262821-c8dc-41c3-ab06-6f7f44eb7459")
-		(property "Reference" "R12"
+		(property "Reference" "R7"
 			(at 51.562 171.704 90)
 			(effects
 				(font
@@ -6977,7 +5504,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "R12")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6992,7 +5519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5663d7b7-76b0-4758-9d83-93cd88cd7f91")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 175.26 96.52 0)
 			(effects
 				(font
@@ -7042,7 +5569,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7057,7 +5584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5da902ea-471c-4642-a8de-a54c9682504e")
-		(property "Reference" "R39"
+		(property "Reference" "R2"
 			(at 186.182 42.672 90)
 			(effects
 				(font
@@ -7118,7 +5645,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "R39")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7133,7 +5660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6157e06f-4456-486c-b5cb-2654b309baff")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR023"
 			(at 110.49 184.15 0)
 			(effects
 				(font
@@ -7183,7 +5710,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR044")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7198,7 +5725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6236ec7a-d1d0-4704-977a-e551d40d128d")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 200.66 129.032 0)
 			(effects
 				(font
@@ -7249,7 +5776,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7257,7 +5784,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 248.92 133.35 90)
+		(at 248.92 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7265,8 +5792,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62b322d4-fc8b-4727-bf21-a873da3ff18b")
-		(property "Reference" "#PWR08"
-			(at 252.73 133.35 0)
+		(property "Reference" "#PWR014"
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +5802,7 @@
 			)
 		)
 		(property "Value" "VDC_SW"
-			(at 245.11 133.3499 90)
+			(at 245.11 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +5811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 133.35 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +5820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 133.35 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +5829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 248.92 133.35 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,7 +5843,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR08")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7331,7 +5858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6693082b-3d70-4249-b68f-349a1d2aba03")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR05"
 			(at 57.15 58.42 0)
 			(effects
 				(font
@@ -7381,83 +5908,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 337.82 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "771dd1be-d961-4f05-aaf6-eb35d074f7d5")
-		(property "Reference" "J6"
-			(at 340.36 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 340.36 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
-			(at 337.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 337.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 337.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc019ec3-9c71-4d47-a9c2-8b23e805135d")
-		)
-		(pin "3"
-			(uuid "d618a6b6-095a-4252-b620-bdb560ab742a")
-		)
-		(pin "4"
-			(uuid "5892bcf5-2d8d-473c-b7e4-a965f0efac38")
-		)
-		(pin "1"
-			(uuid "6ced48f7-fe6e-4a89-99f3-8a590a5c6fd1")
-		)
-		(instances
-			(project "VORTAC_DOCK_REV1"
-				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J6")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7472,7 +5923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77412c21-397d-4d9e-8aae-2501123edcc5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR04"
 			(at 187.96 45.72 0)
 			(effects
 				(font
@@ -7523,7 +5974,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR045")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7538,7 +5989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a61e32e-a65a-49a1-8c5f-c6b5c4e16f75")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR022"
 			(at 74.93 184.15 0)
 			(effects
 				(font
@@ -7588,7 +6039,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR043")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7603,7 +6054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82087f8c-c872-475f-a4bf-1bffb462d9dd")
-		(property "Reference" "R15"
+		(property "Reference" "R4"
 			(at 112.268 146.05 0)
 			(effects
 				(font
@@ -7666,7 +6117,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "R15")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7682,7 +6133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82333034-6c0a-4839-ba37-109cf9f4d455")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR016"
 			(at 242.57 138.43 0)
 			(effects
 				(font
@@ -7733,7 +6184,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR01")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7748,7 +6199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8825f1df-39be-4a3c-95db-f8a5400792a7")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 101.346 35.56 90)
 			(effects
 				(font
@@ -7809,7 +6260,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -7824,7 +6275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "889411b9-0acf-4341-8ba3-b9a6d6150e38")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR01"
 			(at 55.88 38.1 0)
 			(effects
 				(font
@@ -7875,7 +6326,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR034")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7890,7 +6341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b29417f-3402-441e-977e-b83ad102ac2c")
-		(property "Reference" "J10"
+		(property "Reference" "J4"
 			(at 201.93 137.414 0)
 			(effects
 				(font
@@ -7945,7 +6396,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J10")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7960,7 +6411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bb32a89-d064-4c02-b888-c35b24a175bd")
-		(property "Reference" "C34"
+		(property "Reference" "C5"
 			(at 71.12 132.08 90)
 			(effects
 				(font
@@ -8023,7 +6474,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "C34")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8038,7 +6489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d49feb3-9cf4-4f0c-9dc8-59bbe81d391c")
-		(property "Reference" "D7"
+		(property "Reference" "D2"
 			(at 196.088 42.926 0)
 			(effects
 				(font
@@ -8099,7 +6550,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "D7")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8115,7 +6566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e4df7a8-d00d-4ae5-a489-d852367e9954")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 77.0733 135.89 0)
 			(effects
 				(font
@@ -8133,7 +6584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+		(property "Footprint" "Vortac:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
 			(at 74.93 187.96 0)
 			(effects
 				(font
@@ -8247,7 +6698,7 @@
 		(instances
 			(project ""
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8263,7 +6714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9180e0ec-f07f-4f60-9676-03b970f465df")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 75.8033 78.74 0)
 			(effects
 				(font
@@ -8344,7 +6795,7 @@
 		(instances
 			(project ""
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8360,7 +6811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9544a7a3-2ca4-4652-aad4-441fd73c2df8")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 73.66 30.48 0)
 			(effects
 				(font
@@ -8433,7 +6884,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8449,7 +6900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9923d186-6026-4497-8de3-b3b7fb7355aa")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 48.26 134.62 0)
 			(effects
 				(font
@@ -8500,7 +6951,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8583,7 +7034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a25a2a8d-6408-45b2-b89c-b8de3e974536")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 260.35 137.1599 0)
 			(effects
 				(font
@@ -8646,7 +7097,7 @@
 		(instances
 			(project ""
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8662,7 +7113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a36b25cc-f8cc-47bb-9680-1485bf613e7a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR020"
 			(at 53.34 163.83 0)
 			(effects
 				(font
@@ -8713,7 +7164,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR09")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8728,7 +7179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4cdb797-d13d-4d97-958b-acbd25658ebf")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR011"
 			(at 73.66 104.14 0)
 			(effects
 				(font
@@ -8778,7 +7229,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR041")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8793,7 +7244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a720df18-a77f-4eb6-8903-6d4d7079547b")
-		(property "Reference" "J7"
+		(property "Reference" "J1"
 			(at 200.914 122.936 0)
 			(effects
 				(font
@@ -8844,74 +7295,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 327.66 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0a0072d-2526-42d0-b980-c2a2a2b43755")
-		(property "Reference" "#PWR03"
-			(at 331.47 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 323.85 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 327.66 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bbe2339-fbab-4339-a9f8-e026e14fbe80")
-		)
-		(instances
-			(project "VORTAC_DOCK_REV1"
-				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR03")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8926,7 +7310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b14e57bc-431f-4ce3-964b-692de5bc5002")
-		(property "Reference" "C30"
+		(property "Reference" "C2"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -8996,7 +7380,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "C30")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9078,7 +7462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9966472-f7b8-4ac6-b2a5-d1aa3d7076a5")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR08"
 			(at 73.66 83.82 0)
 			(effects
 				(font
@@ -9129,7 +7513,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR040")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9145,7 +7529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9cba011-c68c-4034-a13b-32985ccd573b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR017"
 			(at 58.42 143.51 0)
 			(effects
 				(font
@@ -9196,80 +7580,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 337.82 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca65f310-192e-44dc-ad43-74854e678326")
-		(property "Reference" "J4"
-			(at 340.36 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 340.36 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
-			(at 337.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 337.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 337.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "56620bf7-4fcc-477c-8524-d4513b3aab6f")
-		)
-		(pin "1"
-			(uuid "8fd0abe9-08d0-4c8d-8e8e-7dc06540c494")
-		)
-		(pin "2"
-			(uuid "24cac0c8-061b-4953-bb5d-169a77fd8bf6")
-		)
-		(instances
-			(project "VORTAC_DOCK_REV1"
-				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "J4")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9284,7 +7595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cae045de-02a0-446e-9d01-f20a3e904d7f")
-		(property "Reference" "C31"
+		(property "Reference" "C3"
 			(at 134.62 44.45 0)
 			(effects
 				(font
@@ -9354,7 +7665,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "C31")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9369,7 +7680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf4f4de0-20ae-4f7e-acdb-9252fd43f6e2")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR03"
 			(at 187.96 38.1 0)
 			(effects
 				(font
@@ -9420,7 +7731,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR039")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9435,7 +7746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da2022f2-05a8-4bc1-b316-0bf3a34b4997")
-		(property "Reference" "C28"
+		(property "Reference" "C1"
 			(at 103.886 40.132 0)
 			(effects
 				(font
@@ -9496,7 +7807,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "C28")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9570,76 +7881,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 261.62 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea02f7c9-c0d7-4ed7-99f3-ed29f7a4115a")
-		(property "Reference" "JP2"
-			(at 264.16 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 264.16 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 261.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 261.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb1a574b-bd94-4868-bf3f-a9c861e21a8f")
-		)
-		(pin "2"
-			(uuid "e15e7fa0-2905-4fd3-9ea2-60c96fdf1906")
-		)
-		(instances
-			(project "VORTAC_DOCK_REV1"
-				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 198.12 90.17 0)
 		(unit 1)
@@ -9648,7 +7889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1913c8c-104b-4936-a146-72ccfae62363")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 198.12 96.52 0)
 			(effects
 				(font
@@ -9698,7 +7939,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9713,7 +7954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbee60f0-635f-4030-895b-36f1a9db786f")
-		(property "Reference" "R14"
+		(property "Reference" "R5"
 			(at 112.268 153.924 0)
 			(effects
 				(font
@@ -9776,7 +8017,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "R14")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9791,7 +8032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff1df04f-1297-487d-947f-91d711b33e2a")
-		(property "Reference" "R16"
+		(property "Reference" "R3"
 			(at 250.698 93.98 0)
 			(effects
 				(font
@@ -9854,7 +8095,7 @@
 		(instances
 			(project "VORTAC_DOCK_REV1"
 				(path "/2f2f6bc9-6a3b-49a5-b3e4-5e3162e7e90b"
-					(reference "R16")
+					(reference "R3")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-25308780310934384
+25310544297650561
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101520,6 +101520,13 @@ Solderpoint_01x03_Data
 0
 3
 3
+Vortac
+Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias
+Texas RGE0024H VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas VQFN NoLead
+0
+39
+25
 Vortac
 Toolplate_Solderpoint_01x02_Power
 

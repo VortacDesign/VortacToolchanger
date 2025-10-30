@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Dock_Solderpoint_02x01_VCC"
-		(at -0.1 -4.93 0)
+		(at -0.01 -5.68 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8b03c838-6b4c-4401-ae84-f19fbd56e83b")
