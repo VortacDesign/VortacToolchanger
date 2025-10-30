@@ -1189,7 +1189,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 58.42 48.26 180)
+		(at 58.42 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1199,7 +1199,7 @@
 		)
 		(uuid "2c1b6648-5631-40f1-b6d6-b69349c37fa2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4476 48.26 0)
+			(at 49.4476 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1233,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 55.88 109.22 180)
+		(at 55.88 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1243,7 +1243,7 @@
 		)
 		(uuid "5a9327c7-e02d-4a94-a761-551f0b917cf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.9076 109.22 0)
+			(at 46.9076 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1277,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 58.42 50.8 180)
+		(at 58.42 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1287,7 +1287,7 @@
 		)
 		(uuid "84b0ce5d-a6ed-4134-bd68-8a7c48f3252c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.75 50.8 0)
+			(at 49.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1299,7 @@
 	)
 	(global_label "TOOL_ID"
 		(shape input)
-		(at 58.42 43.18 180)
+		(at 58.42 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1309,7 +1309,7 @@
 		)
 		(uuid "a28ce31f-349a-4749-9503-0816295fc142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.9357 43.18 0)
+			(at 47.9357 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1321,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 55.88 111.76 180)
+		(at 55.88 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1331,7 +1331,7 @@
 		)
 		(uuid "dc9b7627-3875-4be3-b1b5-f7b84cbbe75c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.21 111.76 0)
+			(at 47.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f57ce7b-57f1-4805-86a9-3779b82f3a75")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR03"
 			(at 140.97 86.36 0)
 			(effects
 				(font
@@ -1538,7 +1538,7 @@
 		(instances
 			(project "VORTAC_TOOLPLATE_REV1"
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
-					(reference "#PWR09")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1554,7 +1554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "269ae41c-6720-4bd9-8c7e-2161b2f8b23d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR04"
 			(at 184.15 86.36 0)
 			(effects
 				(font
@@ -1605,7 +1605,7 @@
 		(instances
 			(project "VORTAC_TOOLPLATE_REV1"
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
-					(reference "#PWR010")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1621,7 +1621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d12a8cd-f152-458b-b899-d47079849c85")
-		(property "Reference" "D9"
+		(property "Reference" "D3"
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -1691,7 +1691,7 @@
 		(instances
 			(project "VORTAC_TOOLPLATE_REV1"
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
-					(reference "D9")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1865,7 +1865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82333034-6c0a-4839-ba37-109cf9f4d455")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 52.07 45.72 0)
 			(effects
 				(font
@@ -1916,7 +1916,7 @@
 		(instances
 			(project ""
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1932,7 +1932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90c66cd0-d8f2-49dc-b78a-0e7a451f8cb8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 138.43 106.68 0)
 			(effects
 				(font
@@ -1983,7 +1983,7 @@
 		(instances
 			(project "VORTAC_TOOLPLATE_REV1"
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "914db44c-e5e3-4ac6-b4a0-3ef51a9a7b25")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 120.65 106.68 0)
 			(effects
 				(font
@@ -2050,7 +2050,7 @@
 		(instances
 			(project "VORTAC_TOOLPLATE_REV1"
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2136,7 +2136,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 58.42 40.64 90)
+		(at 58.42 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2144,8 +2144,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9cba011-c68c-4034-a13b-32985ccd573b")
-		(property "Reference" "#PWR02"
-			(at 62.23 40.64 0)
+		(property "Reference" "#PWR01"
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2154,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 54.61 40.6399 90)
+			(at 54.61 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 40.64 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 40.64 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 58.42 40.64 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2195,7 @@
 		(instances
 			(project ""
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

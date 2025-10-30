@@ -7,7 +7,6 @@
 		(at 0 -2.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "a30ff603-2c02-4099-b67e-3b476fad5a52")
 		(effects
 			(font
@@ -19,8 +18,7 @@
 	(property "Value" "Toolplate_Solderpoint_01x02_Power_Small"
 		(at -0.1 -4.93 0)
 		(unlocked yes)
-		(layer "F.SilkS")
-		(hide yes)
+		(layer "F.Fab")
 		(uuid "8b03c838-6b4c-4401-ae84-f19fbd56e83b")
 		(effects
 			(font
@@ -33,7 +31,6 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "07da3daf-3804-49ea-9260-1bc9bbf99d10")
 		(effects
 			(font
@@ -57,7 +54,7 @@
 	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
-		(at 0 1.1 0)
+		(at 0 1.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7880a343-2fc1-44ba-b763-c36921fa9183")
@@ -75,7 +72,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "fa34afee-c905-47f8-84d6-03634e5f49d1")
 	)
 	(pad "2" thru_hole oval
@@ -84,7 +81,7 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "93df37ff-6b13-47ed-9971-339cf3820794")
 	)
 	(embedded_fonts no)
