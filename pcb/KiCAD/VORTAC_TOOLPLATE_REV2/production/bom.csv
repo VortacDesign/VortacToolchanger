@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2",D_SOD-323,2,UDD32C24L01,C19188728
+"D3, D4",D_SOD-323,2,SD05,C502527
+D9,D_SOD-123F,1,"PTVS26VS1UR,115-ES",C41409305
+J1,mill-max-0881-1-15-20-82-14-11-0_LandingPads_ContactPad_PTH_2x1.5x1,1,Conn_01x07,
+J2,Toolplate_Solderpoint_01x02_Power_Small,1,Conn_01x02,
