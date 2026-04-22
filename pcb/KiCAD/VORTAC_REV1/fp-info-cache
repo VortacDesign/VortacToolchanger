@@ -1,4 +1,4 @@
-25294644896635581
+25317628507884586
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101276,6 +101276,27 @@ Varistor VF
 2
 2
 Vortac
+Dock_Solderpoint_02x01_GND
+
+
+0
+4
+1
+Vortac
+Dock_Solderpoint_02x01_VCC
+
+
+0
+4
+1
+Vortac
+Dock_Solderpoint_02x02_Power
+
+
+0
+4
+2
+Vortac
 FILTER-SMD_2012-4P-L2.0-W1.2-TL
 
 
@@ -101472,6 +101493,13 @@ SOP SO
 8
 8
 Vortac
+SOT-23-8; 8mm pitch
+SOT, 8 Pin (JEDEC MO-178 Var BA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+8
+8
+Vortac
 SW-SMD_L3.9-W3.0-P4.45
 
 
@@ -101493,6 +101521,27 @@ solder jumper open
 2
 2
 Vortac
+Solderpoint_01x03_Data
+
+
+0
+3
+3
+Vortac
+Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias
+Texas RGE0024H VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas VQFN NoLead
+0
+39
+25
+Vortac
+Toolplate_Solderpoint_01x02_Data_Small
+
+
+0
+2
+2
+Vortac
 Toolplate_Solderpoint_01x02_Power
 
 
@@ -101500,7 +101549,28 @@ Toolplate_Solderpoint_01x02_Power
 2
 2
 Vortac
+Toolplate_Solderpoint_01x02_Power_Small
+
+
+0
+2
+2
+Vortac
+Toolplate_Solderpoint_01x03_Data_Small
+
+
+0
+3
+3
+Vortac
 Toolplate_Solderpoint_01x05_Data
+
+
+0
+5
+5
+Vortac
+Toolplate_Solderpoint_01x05_Data_Small
 
 
 0
@@ -101577,6 +101647,13 @@ WSD4066DN_ThermalPad_Hex
 28
 6
 Vortac
+mill-max-0881-1-15-20-82-14-11-0_LandingPads_ContactPad_1x5
+
+
+0
+5
+5
+Vortac
 mill-max-0881-1-15-20-82-14-11-0_LandingPads_ContactPad_PTH_2x1.5x1
 
 
@@ -101584,12 +101661,26 @@ mill-max-0881-1-15-20-82-14-11-0_LandingPads_ContactPad_PTH_2x1.5x1
 7
 7
 Vortac
+mill-max-0881-1-15-20-82-14-11-0_LandingPads_ContactPad_PTH_2x1.5x1_01x05
+
+
+0
+5
+5
+Vortac
 mill-max-0881-1-15-20-82-14-11-0_LandingPads_Simple
 
 
 0
 7
 7
+Vortac
+mill-max-0881-1-15-20-82-14-11-0_LandingPads_Simple_01x05
+
+
+0
+5
+5
 Vortac
 mouse-bite-2mm-slot
 

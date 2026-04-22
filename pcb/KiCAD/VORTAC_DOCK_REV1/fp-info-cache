@@ -1,4 +1,4 @@
-25310544297650561
+25317628507884586
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101280,14 +101280,14 @@ Dock_Solderpoint_02x01_GND
 
 
 0
-2
+4
 1
 Vortac
 Dock_Solderpoint_02x01_VCC
 
 
 0
-2
+4
 1
 Vortac
 Dock_Solderpoint_02x02_Power
@@ -101493,6 +101493,13 @@ SOP SO
 8
 8
 Vortac
+SOT-23-8; 8mm pitch
+SOT, 8 Pin (JEDEC MO-178 Var BA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+8
+8
+Vortac
 SW-SMD_L3.9-W3.0-P4.45
 
 
@@ -101528,6 +101535,13 @@ Texas VQFN NoLead
 39
 25
 Vortac
+Toolplate_Solderpoint_01x02_Data_Small
+
+
+0
+2
+2
+Vortac
 Toolplate_Solderpoint_01x02_Power
 
 
@@ -101542,7 +101556,21 @@ Toolplate_Solderpoint_01x02_Power_Small
 2
 2
 Vortac
+Toolplate_Solderpoint_01x03_Data_Small
+
+
+0
+3
+3
+Vortac
 Toolplate_Solderpoint_01x05_Data
+
+
+0
+5
+5
+Vortac
+Toolplate_Solderpoint_01x05_Data_Small
 
 
 0
